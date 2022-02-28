@@ -18,7 +18,7 @@ services:
     image: docker-to-aws-with-java
     restart: always
     build:
-      context: src
+      context: app/src
       dockerfile: app/Dockerfile
     working_dir: /app
     environment:
