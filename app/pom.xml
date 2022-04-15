@@ -121,9 +121,9 @@
 				<groupId>org.flywaydb</groupId>
 				<artifactId>flyway-maven-plugin</artifactId>
 				<configuration>
-					<url>jdbc:mysql://db-mysql:3306/docker_to_aws_with_java?useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false</url>
+					<url>jdbc:mysql://docker-to-aws-with-java.cllixtjbaljn.us-east-2.rds.amazonaws.com:3306/docker_to_aws_with_java?useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false</url>
 					<user>docker</user>
-					<password>docker</password>
+					<password>docker123</password>
 				</configuration>
 				<dependencies>
 					<dependency>
